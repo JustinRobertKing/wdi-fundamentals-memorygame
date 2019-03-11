@@ -3,7 +3,7 @@
 <head>
 	<title>Memory Card Game</title>
 	<link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<header>
@@ -23,12 +23,14 @@
 			</div>
 		</a>
 		<a name="game">
-			<div id="game">
-				<img src="images/back.png" alt="Queen of Diamonds">
-				<img src="images/back.png" alt="Queen of Hearts">
-				<img src="images/back.png" alt="King of Diamonds">
-				<img src="images/back.png" alt="King of Hearts">
+			<div id="game-board" class="board-clearfix">
 			</div>
+			<button>Reset</button>
+			<!-- <br>
+			<ul>
+				<li>Wins: <span id="wins">0</span></li>
+				<li>Losses: <span id="losses">0</span></li>
+			</ul> -->
 		</a>
 	</main>
 	<footer class="clearfix">

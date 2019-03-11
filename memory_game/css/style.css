@@ -46,8 +46,32 @@ nav {
 	background-color: #00A6B3;
 	color: #ffffff;
 	padding: 20px 0;
-
 }
+
+button {
+	background-color: #00A6B3;
+	color: #ffffff;
+	margin: 34px auto;
+	font-size: 18px;
+	border: none;
+}
+
+/*ul {
+	list-style: none;
+	text-align: center;
+	font-family: raleway;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 50px;
+}*/
 
 main {
 	width: 850px;
