@@ -21,20 +21,18 @@ var cards = [
 }];
 
 var cardsInPlay = [];
-// var roundsWon = 0;
-// var roundsLost = 0;
+var roundsWon = 0;
+var roundsLost = 0;
 
 var checkForMatch = function() {
 	if (cardsInPlay[0] === cardsInPlay[1]) {
 	alert("You found a match!");
-	// roundsWon += 1;
-	// var currentWins = roundsWon.toString();
-	// document.getElementById('wins').innerHTML = currentWins;
+	roundsWon += 1;
+	document.getElementById('wins').innerHTML = roundsWon.toString();
 	} else {
 	alert("Sorry, try again.");
-	// roundsLost += 1;
-	// var currentLosses = roundsWon.toString();
-	// document.getElementById('losses').innerHTML = currentLosses;
+	roundsLost += 1;
+	document.getElementById('losses').innerHTML = roundsLost.toString();
 	};
 };
 
