@@ -28,11 +28,11 @@ var checkForMatch = function() {
 	if (cardsInPlay[0] === cardsInPlay[1]) {
 	alert("You found a match!");
 	roundsWon += 1;
-	document.getElementById('wins').innerHTML = roundsWon.toString();
+	document.getElementById('wins').innerHTML = roundsWon;
 	} else {
 	alert("Sorry, try again.");
 	roundsLost += 1;
-	document.getElementById('losses').innerHTML = roundsLost.toString();
+	document.getElementById('losses').innerHTML = roundsLost;
 	};
 };
 
